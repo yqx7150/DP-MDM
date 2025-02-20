@@ -33,7 +33,7 @@ from models import utils as mutils
 from models.ema import ExponentialMovingAverage
 # choose your datasetConfig
 # import datasets
-import datasetsGMX as datasets
+import datasets as datasets
 import evaluation
 import likelihood
 import sde_lib

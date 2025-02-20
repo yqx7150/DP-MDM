@@ -114,7 +114,7 @@ sampling_fn = sampling_svd.get_pc_sampler(sde, shape, predictor, corrector,
 
 
 
-import hbz_waigua_0109
+import utils_
 import logging
 from collections import OrderedDict
 import time
@@ -128,7 +128,7 @@ if not os.path.exists(save_path):
 #save_path = './result/仅t2_gy_possion6_1.5'
 if not os.path.exists(save_path):
   os.makedirs(save_path)
-hbz_waigua_0109.setup_logger(
+utils_.setup_logger(
     "base",
     save_path,
     "test",
@@ -143,8 +143,8 @@ logger = logging.getLogger("base")
 # T2_root = './datasets/T2_img'
 # T1_root = './datasets/T1_img'
 # PD_root = './datasets/PD_img'
-dataset = hbz_waigua_0109.get_dataset(T2_root, T1_root, PD_root)
-dataloader = hbz_waigua_0109.get_dataloader(dataset)
+dataset = utils_.get_dataset(T2_root, T1_root, PD_root)
+dataloader = utils_.get_dataloader(dataset)
 test_results = OrderedDict()
 test_results["psnr"] = []
 test_results["ssim"] = []
