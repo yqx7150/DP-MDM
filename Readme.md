@@ -68,5 +68,5 @@ During the reconstruction phase, in each iteration, the under-sampled image is s
 
 Overall, we achieved a PSNR of **40.92** and an SSIM of **0.9456** for under-sampled images with 2D Poisson *R*=10; with 2D Random *R*=8, we obtained a PSNR of **38.23** and an SSIM of **0.9293**; and with Uniform *R*=10, our approach reached a PSNR of **36.18** and an SSIM of **0.9208** on the SIAT brain MRI dataset. The figure illustrated reconstruction images from MRI images that were under-sampled with 2D Random *R*=15 and 8 coils, using different models.
 
-![fig3](E:\Doc of HR\DP-MDM返修\DP-MDM\asset\fig3.jpg)
+![fig3](./asset/fig3.jpg)
 
