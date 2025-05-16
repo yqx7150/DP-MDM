@@ -1,10 +1,10 @@
 # DP-MDM
 
-**paper**: [DP-MDM: Detail-Preserving MR Reconstruction via Multiple Diffusion Models](https://arxiv.org/abs/2405.05763)
+**paper**: DP-MDM: Detail-Preserving MR Reconstruction via Multiple Diffusion Models
 
-**Authors**: Mengxiao Geng, Jiahao Zhu, Ran Hong, Qiqing Liu, Dong Liang, Qiegen Liu*
-
-
+**Authors**: Mengxiao Geng, Jiahao Zhu, Ran Hong, Qiqing Liu, Dong Liang, Qiegen Liu*    
+Physics in Medicine & Biology          
+https://iopscience.iop.org/article/10.1088/1361-6560/add83a/meta           
 
 Date: Feb. 20, 2025
 
